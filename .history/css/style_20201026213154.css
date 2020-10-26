@@ -5,88 +5,80 @@
 /* carter-one-regular - latin */
 @font-face {
   display: swap;
-  font-family: "Carter One";
+  font-family: 'Carter One';
   font-style: normal;
   font-weight: 400;
-  src: local("Carter One"), local("CarterOne"),
-    url("./fonts/carter-one-v12-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./fonts/carter-one-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local('Carter One'), local('CarterOne'),
+       url('./fonts/carter-one-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/carter-one-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* gloria-hallelujah-regular - latin */
 @font-face {
   display: swap;
-  font-family: "Gloria Hallelujah";
+  font-family: 'Gloria Hallelujah';
   font-style: normal;
   font-weight: 400;
-  src: local("Gloria Hallelujah"), local("GloriaHallelujah"),
-    url("./fonts/gloria-hallelujah-v12-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./fonts/gloria-hallelujah-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local('Gloria Hallelujah'), local('GloriaHallelujah'),
+       url('./fonts/gloria-hallelujah-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/gloria-hallelujah-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* jost-regular - latin */
 @font-face {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("./fonts/jost-v4-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./fonts/jost-v4-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(''),
+       url('./fonts/jost-v4-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/jost-v4-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* jost-600 - latin */
 @font-face {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 600;
-  src: local(""), url("./fonts/jost-v4-latin-600.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./fonts/jost-v4-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(''),
+       url('./fonts/jost-v4-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/jost-v4-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* jost-800 - latin */
 @font-face {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 800;
-  src: local(""), url("./fonts/jost-v4-latin-800.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./fonts/jost-v4-latin-800.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(''),
+       url('./fonts/jost-v4-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/jost-v4-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* jost-italic - latin */
 @font-face {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: italic;
   font-weight: 400;
-  src: local(""), url("./fonts/jost-v4-latin-italic.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./fonts/jost-v4-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(''),
+       url('./fonts/jost-v4-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/jost-v4-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 :root {
-  --ff-primary: "Jost", sans-serif;
-  --ff-secondary: "Carter One";
-  --ff-unique: "Gloria Hallelujah";
+  --ff-primary: 'Jost', sans-serif;
+  --ff-secondary: 'Carter One';
+  --ff-unique: 'Gloria Hallelujah';
 
-  --fw-h2: 600;
-  --fw-h3: 900;
-  --fw-p: 400;
+  --h2: 600;
+  --h3: 900;
+  --p: 400;
 
-  --fs-h1: 30px;
-  --fs-h2: 28px;
-  --fs-h3: 20px;
-  --fs-p: 16px;
+  --crl-primary: #8343EA;
+  --crl-scondary: #9D89B3;
+  --crl-tertiary: #00D3FF;
+  --crl-default: #1F1926;
+  --crl-basic: #FDF7FF;
 
-  --crl-primary: #8343ea;
-  --crl-secondary: #9d89b3;
-  --crl-tertiary: #00d3ff;
-  --crl-default: #231c2b;
-  --crl-basic: #fdf7ff;
 }
 
-*,
-*::after,
-*::before {
+*, *::after, *::before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -96,33 +88,12 @@
 }
 
 header {
-  width: 100vw;
+  width: 100%;
   position: fixed;
-  background-image: linear-gradient(
-    to right top,
-    #8343ea,
-    #8b52e0,
-    #9160d6,
-    #966dcb,
-    #9a79c1,
-    #9685c7,
-    #9390cc,
-    #939acf,
-    #83a8e1,
-    #6cb6f0,
-    #4ac5f9,
-    #00d3fd
-  );
-  max-height: 12vh;
+  background: #fff;
+  max-height: 10vh;
   box-shadow: 0 0 5px #111;
-  padding-bottom: 15px;
   z-index: 255;
-}
-
-@media screen and (min-width: 768px) {
-  header {
-    padding: 0;
-  }
 }
 
 nav {
@@ -135,40 +106,22 @@ main {
   padding-top: 5vh;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--ff-secondary);
   padding: 15px 0;
 }
 
-h1,
-h2 {
+h1, h2 {
   text-align: center;
   margin: 0 auto;
 }
 
-h1 {
-  font-size: var(--fs-h1);
-}
-
 h2 {
-  font-size: var(--fs-h2);
+  font-size: 15px;
 }
 
-h3 {
-  font-size: var(--fs-h3);
-}
-
-p,
-b,
-i,
-label {
+p, b, i, label {
   font-family: var(--ff-primary);
-  font-size: var(--fs-p);
 }
 
 i {
@@ -179,46 +132,30 @@ i {
   font-family: var(--ff-primary);
 }
 
+
 @media only screen and (min-width: 768px) {
   nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 25px;
   }
 }
 
 .logo {
-  font-size: 34px;
-  color: var(--crl-basic);
-  font-family: var(--ff-unique);
+  width: 55px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: black;
+  font-family: var(--ff-secondary);
   display: flex;
   align-items: center;
-  line-height: 50px;
-}
-
-@media screen and (min-width: 768px) {
-  .logo {
-    width: 55px;
-  }
 }
 
 .logo span {
-  color: var(--crl-tertiary);
-  font-size: 0.5em;
-  transition: font-size 0.5s ease;
-}
-
-.logo:hover {
-  font-size: 34px;
-  color: var(--crl-tertiary);
-}
-
-.logo:hover > span {
-  color: var(--crl-default);
-  font-size: 34px;
+  color: blue;
+  font-size: .5em;
 }
 
 .nav-list {
@@ -232,13 +169,13 @@ i {
 }
 
 .nav-links {
-  color: var(--crl-basic);
+  color: var(--crl-default);
   font-size: 18px;
 }
 
 .nav-links:hover,
 .nav-links:focus {
-  color: var(--crl-tertiary);
+  color: var(--crl-scondary);
   font-size: 18px;
   font-weight: bold;
   transition: 0.5s ease;
@@ -260,8 +197,9 @@ i {
 }
 
 .box__item h2 {
-  font-size: var(--fs-h2);
-  font-weight: var(--fw-h2);
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
   margin-bottom: 5px;
 }
 .box {
@@ -296,7 +234,7 @@ i {
   font-size: 60px;
   font-weight: 900;
   line-height: 70px;
-  color: var(--crl-basic);
+  color: #fff;
   text-align: center;
   text-shadow: 2px 2px 8px #111;
   display: block;
@@ -336,15 +274,15 @@ a:hover {
   width: calc(100% - 50px);
   font-size: 16px;
   border: none;
-  color: var(--crl-basic);
+  color: #fff;
   font-weight: 900;
   padding: 5px;
   border-radius: 150px;
   background-color: var(--crl-primary);
 }
 .box__button:hover {
-  background-color: var(--crl-secondary);
-  color: var(--crl-basic);
+  background-color: var(--crl-scondary);
+  color: #fff;
   padding: 8px;
   transition: 0.5s ease-in-out;
 }
@@ -400,6 +338,7 @@ a:hover {
 .box.box--drama img {
   margin-right: 10px;
   width: 30%;
+  margin-top: 15px;
   float: left;
 }
 h3 {
@@ -456,7 +395,7 @@ h3 {
 
 footer {
   width: 100%;
-  background-color: var(--crl-default);
+  background-color: #111;
   height: fit-content;
   display: flex;
   flex-direction: column;
@@ -478,15 +417,14 @@ footer {
 .service a,
 .social-media a,
 .partners a {
-  color: var(--crl-basic);
+  color: #fff;
   line-height: 26px;
 }
 
 footer label,
 footer h3,
 footer p {
-  color: var(--crl-secondary);
-  font-weight: var(--fw-h2);
+  color: #fff;
 }
 
 #hidden__communicate {
@@ -511,23 +449,22 @@ footer h3::after {
 }
 
 footer [type="submit"] {
-  background-color: var(--crl-primary);
-  color: var(--crl-basic);
+  background: orange;
   border: none;
   padding: 7px;
   font-weight: 900;
   width: 75px;
-  transition: background-color 0.5s ease;
 }
 footer [type="submit"]:hover {
-  background-color: var(--crl-secondary);
+  color: #fff;
+  transition: 0.5s ease-out;
 }
 input {
   padding: 5px;
 }
 
 .footerHeading {
-  color: var(--crl-secondary);
+  color: lightgrey;
   font-weight: 900;
   font-size: 20px;
   line-height: 50px;
@@ -552,6 +489,7 @@ input {
   padding-top: 25px;
 }
 
+
 @media only screen and (min-width: 1200px) {
   .nav__item {
     display: flex;
@@ -573,3 +511,4 @@ input {
     padding: 0;
   }
 }
+

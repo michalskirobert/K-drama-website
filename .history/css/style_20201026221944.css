@@ -343,7 +343,7 @@ a:hover {
   background-color: var(--crl-primary);
 }
 .box__button:hover {
-  background-color: var(--crl-secondary);
+  background-color: var(--crl-scondary);
   color: var(--crl-basic);
   padding: 8px;
   transition: 0.5s ease-in-out;
@@ -485,7 +485,7 @@ footer {
 footer label,
 footer h3,
 footer p {
-  color: var(--crl-secondary);
+  color: var(--crl-scondary);
   font-weight: var(--fw-h2);
 }
 
@@ -520,14 +520,14 @@ footer [type="submit"] {
   transition: background-color 0.5s ease;
 }
 footer [type="submit"]:hover {
-  background-color: var(--crl-secondary);
+  background-color: var(--crl-scondary);
 }
 input {
   padding: 5px;
 }
 
 .footerHeading {
-  color: var(--crl-secondary);
+  color: var(--crl-scondary);
   font-weight: 900;
   font-size: 20px;
   line-height: 50px;

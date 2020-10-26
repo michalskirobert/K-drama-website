@@ -78,9 +78,9 @@
   --fs-p: 16px;
 
   --crl-primary: #8343ea;
-  --crl-secondary: #9d89b3;
+  --crl-scondary: #9d89b3;
   --crl-tertiary: #00d3ff;
-  --crl-default: #231c2b;
+  --crl-default: #1f1926;
   --crl-basic: #fdf7ff;
 }
 
@@ -96,7 +96,7 @@
 }
 
 header {
-  width: 100vw;
+  width: 100%;
   position: fixed;
   background-image: linear-gradient(
     to right top,
@@ -113,16 +113,9 @@ header {
     #4ac5f9,
     #00d3fd
   );
-  max-height: 12vh;
+  max-height: 10vh;
   box-shadow: 0 0 5px #111;
-  padding-bottom: 15px;
   z-index: 255;
-}
-
-@media screen and (min-width: 768px) {
-  header {
-    padding: 0;
-  }
 }
 
 nav {
@@ -185,18 +178,18 @@ i {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 25px;
   }
 }
 
 .logo {
   font-size: 34px;
+  text-align: center;
+  margin: 0 auto;
   color: var(--crl-basic);
-  font-family: var(--ff-unique);
+  font-family: var(--ff-secondary);
   display: flex;
   align-items: center;
-  line-height: 50px;
+  line-height: 38px;
 }
 
 @media screen and (min-width: 768px) {
@@ -208,17 +201,17 @@ i {
 .logo span {
   color: var(--crl-tertiary);
   font-size: 0.5em;
-  transition: font-size 0.5s ease;
+  transition: font-size 0.5s ease, border-bottom 0.7s ease-in;
 }
 
 .logo:hover {
-  font-size: 34px;
   color: var(--crl-tertiary);
 }
 
 .logo:hover > span {
   color: var(--crl-default);
-  font-size: 34px;
+  font-size: var(--fs-p);
+  border-bottom: 2px solid var(--crl-tertiary);
 }
 
 .nav-list {
@@ -343,7 +336,7 @@ a:hover {
   background-color: var(--crl-primary);
 }
 .box__button:hover {
-  background-color: var(--crl-secondary);
+  background-color: var(--crl-scondary);
   color: var(--crl-basic);
   padding: 8px;
   transition: 0.5s ease-in-out;
@@ -485,7 +478,7 @@ footer {
 footer label,
 footer h3,
 footer p {
-  color: var(--crl-secondary);
+  color: var(--crl-scondary);
   font-weight: var(--fw-h2);
 }
 
@@ -520,14 +513,14 @@ footer [type="submit"] {
   transition: background-color 0.5s ease;
 }
 footer [type="submit"]:hover {
-  background-color: var(--crl-secondary);
+  background-color: var(--crl-scondary);
 }
 input {
   padding: 5px;
 }
 
 .footerHeading {
-  color: var(--crl-secondary);
+  color: var(--crl-scondary);
   font-weight: 900;
   font-size: 20px;
   line-height: 50px;

@@ -5,68 +5,66 @@
 /* carter-one-regular - latin */
 @font-face {
   display: swap;
-  font-family: "Carter One";
+  font-family: 'Carter One';
   font-style: normal;
   font-weight: 400;
-  src: local("Carter One"), local("CarterOne"),
-    url("./fonts/carter-one-v12-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./fonts/carter-one-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local('Carter One'), local('CarterOne'),
+       url('./fonts/carter-one-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/carter-one-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* gloria-hallelujah-regular - latin */
 @font-face {
   display: swap;
-  font-family: "Gloria Hallelujah";
+  font-family: 'Gloria Hallelujah';
   font-style: normal;
   font-weight: 400;
-  src: local("Gloria Hallelujah"), local("GloriaHallelujah"),
-    url("./fonts/gloria-hallelujah-v12-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./fonts/gloria-hallelujah-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local('Gloria Hallelujah'), local('GloriaHallelujah'),
+       url('./fonts/gloria-hallelujah-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/gloria-hallelujah-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* jost-regular - latin */
 @font-face {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("./fonts/jost-v4-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./fonts/jost-v4-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(''),
+       url('./fonts/jost-v4-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/jost-v4-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* jost-600 - latin */
 @font-face {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 600;
-  src: local(""), url("./fonts/jost-v4-latin-600.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./fonts/jost-v4-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(''),
+       url('./fonts/jost-v4-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/jost-v4-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* jost-800 - latin */
 @font-face {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: normal;
   font-weight: 800;
-  src: local(""), url("./fonts/jost-v4-latin-800.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./fonts/jost-v4-latin-800.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(''),
+       url('./fonts/jost-v4-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/jost-v4-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* jost-italic - latin */
 @font-face {
-  font-family: "Jost";
+  font-family: 'Jost';
   font-style: italic;
   font-weight: 400;
-  src: local(""), url("./fonts/jost-v4-latin-italic.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./fonts/jost-v4-latin-italic.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local(''),
+       url('./fonts/jost-v4-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/jost-v4-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 :root {
-  --ff-primary: "Jost", sans-serif;
-  --ff-secondary: "Carter One";
-  --ff-unique: "Gloria Hallelujah";
+  --ff-primary: 'Jost', sans-serif;
+  --ff-secondary: 'Carter One';
+  --ff-unique: 'Gloria Hallelujah';
 
   --fw-h2: 600;
   --fw-h3: 900;
@@ -77,16 +75,15 @@
   --fs-h3: 20px;
   --fs-p: 16px;
 
-  --crl-primary: #8343ea;
-  --crl-secondary: #9d89b3;
-  --crl-tertiary: #00d3ff;
-  --crl-default: #231c2b;
-  --crl-basic: #fdf7ff;
+  --crl-primary: #8343EA;
+  --crl-scondary: #9D89B3;
+  --crl-tertiary: #00D3FF;
+  --crl-default: #1F1926;
+  --crl-basic: #FDF7FF;
+
 }
 
-*,
-*::after,
-*::before {
+*, *::after, *::before {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -96,33 +93,12 @@
 }
 
 header {
-  width: 100vw;
+  width: 100%;
   position: fixed;
-  background-image: linear-gradient(
-    to right top,
-    #8343ea,
-    #8b52e0,
-    #9160d6,
-    #966dcb,
-    #9a79c1,
-    #9685c7,
-    #9390cc,
-    #939acf,
-    #83a8e1,
-    #6cb6f0,
-    #4ac5f9,
-    #00d3fd
-  );
-  max-height: 12vh;
+  background-image: linear-gradient(to right top, #8343ea, #8b52e0, #9160d6, #966dcb, #9a79c1, #9685c7, #9390cc, #939acf, #83a8e1, #6cb6f0, #4ac5f9, #00d3fd);
+  max-height: 10vh;
   box-shadow: 0 0 5px #111;
-  padding-bottom: 15px;
   z-index: 255;
-}
-
-@media screen and (min-width: 768px) {
-  header {
-    padding: 0;
-  }
 }
 
 nav {
@@ -135,18 +111,12 @@ main {
   padding-top: 5vh;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--ff-secondary);
   padding: 15px 0;
 }
 
-h1,
-h2 {
+h1, h2 {
   text-align: center;
   margin: 0 auto;
 }
@@ -163,10 +133,7 @@ h3 {
   font-size: var(--fs-h3);
 }
 
-p,
-b,
-i,
-label {
+p, b, i, label {
   font-family: var(--ff-primary);
   font-size: var(--fs-p);
 }
@@ -179,46 +146,40 @@ i {
   font-family: var(--ff-primary);
 }
 
+
 @media only screen and (min-width: 768px) {
   nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 25px;
   }
 }
 
 .logo {
-  font-size: 34px;
+  width: 55px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
   color: var(--crl-basic);
-  font-family: var(--ff-unique);
+  font-family: var(--ff-secondary);
   display: flex;
   align-items: center;
-  line-height: 50px;
-}
-
-@media screen and (min-width: 768px) {
-  .logo {
-    width: 55px;
-  }
 }
 
 .logo span {
   color: var(--crl-tertiary);
-  font-size: 0.5em;
+  font-size: .5em;
   transition: font-size 0.5s ease;
 }
 
 .logo:hover {
-  font-size: 34px;
   color: var(--crl-tertiary);
 }
 
 .logo:hover > span {
   color: var(--crl-default);
-  font-size: 34px;
+  font-size: var(--fs-p);
 }
 
 .nav-list {
@@ -343,7 +304,7 @@ a:hover {
   background-color: var(--crl-primary);
 }
 .box__button:hover {
-  background-color: var(--crl-secondary);
+  background-color: var(--crl-scondary);
   color: var(--crl-basic);
   padding: 8px;
   transition: 0.5s ease-in-out;
@@ -478,14 +439,14 @@ footer {
 .service a,
 .social-media a,
 .partners a {
-  color: var(--crl-basic);
+  color:  var(--crl-basic);
   line-height: 26px;
 }
 
 footer label,
 footer h3,
 footer p {
-  color: var(--crl-secondary);
+  color: var(--crl-scondary);
   font-weight: var(--fw-h2);
 }
 
@@ -520,14 +481,14 @@ footer [type="submit"] {
   transition: background-color 0.5s ease;
 }
 footer [type="submit"]:hover {
-  background-color: var(--crl-secondary);
+  background-color: var(--crl-scondary);
 }
 input {
   padding: 5px;
 }
 
 .footerHeading {
-  color: var(--crl-secondary);
+  color: var(--crl-scondary);
   font-weight: 900;
   font-size: 20px;
   line-height: 50px;
@@ -552,6 +513,7 @@ input {
   padding-top: 25px;
 }
 
+
 @media only screen and (min-width: 1200px) {
   .nav__item {
     display: flex;
@@ -573,3 +535,4 @@ input {
     padding: 0;
   }
 }
+
