@@ -2,9 +2,9 @@ window.onscroll= () => {
   const header = document.querySelector("header");
 
   if (document.documentElement.scrollTop > 80) {
-    header.classList.add("active");
+    header.classList.remove(".active");
   }else {
-    header.classList.remove("active");
+    header.classList.add(".active");
   }
 }
 

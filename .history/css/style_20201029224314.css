@@ -101,7 +101,7 @@ header {
   width: 100vw;
   position: fixed;
   background-image: none;
-  background-size: 80% 70%;
+  background-size: 25% 75%;
   background-color: rgba(0, 0, 0, .5);
   max-height: 12vh;
   box-shadow: none;

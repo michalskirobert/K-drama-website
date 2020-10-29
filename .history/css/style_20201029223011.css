@@ -1,7 +1,5 @@
 /*made by Robert Michalski*/
 
-/*My first mobile first website in Flex-box*/
-
 @import "reset.css";
 
 /* carter-one-regular - latin */
@@ -101,8 +99,7 @@ header {
   width: 100vw;
   position: fixed;
   background-image: none;
-  background-size: 80% 70%;
-  background-color: rgba(0, 0, 0, .5);
+  background-size: 25% bottom;
   max-height: 12vh;
   box-shadow: none;
   padding-bottom: 15px;
@@ -126,7 +123,7 @@ header.active {
     #4ac5f9,
     #00d3fd
   );
-  background-size: 100% 100%;
+  background-size: 100% bottom;
   box-shadow: 0 0 5px #111;
 }
 
@@ -477,6 +474,7 @@ footer {
 .nav-list.footer {
   display: flex;
   flex-direction: column;
+  padding: 0 20px 0;
   flex-basis: 50%;
 }
 
@@ -578,8 +576,4 @@ input {
     top: 93%;
     padding: 0;
   }
-}
-
-.nav__item ul:first-child {
-  padding: 0 20px 0 10px;
 }
